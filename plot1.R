@@ -1,3 +1,5 @@
+## Download the file
+source("general_ploting.R") 
 png(filename = "plot1.png", 
     width = 480, height = 480, 
     units = "px", bg = "transparent")
