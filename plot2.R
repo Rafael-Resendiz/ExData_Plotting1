@@ -1,4 +1,4 @@
-source("load_data.R")
+source("general_ploting.R")
 png(filename = "plot2.png", 
      width = 480, height = 480,
      units = "px", bg = "transparent")
