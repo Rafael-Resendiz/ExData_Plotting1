@@ -1,4 +1,5 @@
 # General ploting
+====================
  
 ### Download and read file
      eda <- read.table(file.choose(), skip = 1,sep =";",
@@ -21,6 +22,7 @@
 
  
 ## Plot 1
+_____________
      source("general_ploting.R")
      hist(eda2$Global_active_power, main="Global Active Power", 
      xlab="Global Active Power (kilowatts)", ylab="Frequency", col="Red")
