@@ -1,6 +1,6 @@
 # General ploting
  
- ### Download and read file
+### Download and read file
  eda <- read.table(file.choose(), skip = 1,sep =";",colClasses = c("character", "character", rep("numeric",7)), na = "?") 
  
  ### Delete first row and replace colnames
