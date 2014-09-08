@@ -1,10 +1,12 @@
 # General ploting
  
  ## Download and read file
- eda <- read.table(file.choose(), skip = 1,sep =";",colClasses = c("character", "character", rep("numeric",7)), na = "?") 
+ eda <- read.table(file.choose(), skip = 1,sep =";",
+  colClasses = c("character", "character", rep("numeric",7)), na = "?") 
  
  ### Delete first row and replace colnames
- names(eda) <- c("Date", "Time", "Global_active_power", "Global_reactive_power", "Voltage", "Global_intensity", "Sub_metering_1", "Sub_metering_2", "Sub_metering_3")
+ names(eda) <- c("Date", "Time", "Global_active_power", "Global_reactive_power", "Voltage", 
+  "Global_intensity", "Sub_metering_1", "Sub_metering_2", "Sub_metering_3")
  
  ### Format Date
  eda$Date <- as.Date(eda$Date, format="%d/%m/%Y")
