@@ -2,7 +2,7 @@
 
 ## Plot  1  
 
-42e1cdfb5706d8a7c45491c9692f8651e5d323a4
+![plot of chunk unnamed-chunk-2](plot_1-4_png/plot1.png)
 
 
 ## Plot  2
@@ -11,7 +11,8 @@
 
 ## Plot  3  
 
-
+![plot of chunk unnamed-chunk-2](plot_1-4_png/plot3.png)
 
 
 ## Plot  4
+![plot of chunk unnamed-chunk-2](plot_1-4_png/plot4.png)
