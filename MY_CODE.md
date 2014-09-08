@@ -1,5 +1,6 @@
 # General ploting
 ====================
+____________________
  
 ### Download and read file
      eda <- read.table(file.choose(), skip = 1,sep =";",
